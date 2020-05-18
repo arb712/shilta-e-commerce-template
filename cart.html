@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Shilta</title>
+</head>
+<body>
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">             
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <button class="dropdown-item" type="button">Action</button>
+                      <button class="dropdown-item" type="button">Another action</button>
+                      <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
+                  </div>                   
+              </ul>
+            </div> 
+            <div class="col-2"></div>
+            <div class="Link" style="display: inline-block;">
+              <li class="nav-item">
+                  <a href="#"><i class="fa fa-heart"></i> Wishlist</a>
+                  <a href="#"><i class="fa fa-user"></i> Account</a>
+                  <a href="cart.html"><i class="fa fa-shopping-basket"></i> Cart</a>
+                  <a href="#"><i class="fa fa-check"></i> Checkout</a>
+              </li>         
+            </div>
+          </br></br>
+          <div class="col-1"></div>
+            <div class="Link">
+              <li class="nav-item">
+                <a href="logout.php"><i class="fas fa-sign-in-alt"></i> Log Out</a>         
+            </li>
+            </div>
+            
+          </nav>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <main>
+            <div class="col-8">
+                <nav class="navbar navbar-dark bg-dark">
+                        <div class="logo">
+                             <a href="index.html"><h4>Shilta</h4></a>
+                            </div>
+                          </div>
+                        </main>
+                        <div class="col-6"></div>
+                        <div class="btnSear">
+        <form class="form-inline my-5 my-lg-0">
+            <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+          <div class="toggLe">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    </nav>
+    </div>
+                <div class="container">
+                        <div class="card shopping-cart">
+                                 <div class="card-header bg-dark text-light">
+                                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                     Shipping cart
+                                     
+                                     <div class="clearfix"></div>
+                                 </div>
+                                 <div class="card-body">
+                                         <!-- PRODUCT -->
+                                         <div class="row">
+                                             <div class="col-12 col-sm-12 col-md-2 text-center">
+                                                     <img class="img-responsive" src="./chuwy.jpg" alt="prewiew" width="120" height="80">
+                                             </div>
+                                             <div class="col-12 text-sm-center col-sm-12 text-md-left col-md-6">
+                                                 <h4 class="product-name"><strong>White Top</strong></h4>
+                                                 <h4>
+                                                     <small>Ladies White Top</small>
+                                                 </h4>
+                                             </div>
+                                             <div class="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row">
+                                                 <div class="col-3 col-sm-3 col-md-6 text-md-right" style="padding-top: 5px">
+                                                     <h6><strong>25.00 <span class="text-muted">x</span></strong></h6>
+                                                 </div>
+                                                 <div class="col-4 col-sm-4 col-md-4">
+                                                     <div class="quantity">
+                                                         
+                                                         <input type="number" step="1" max="99" min="1" value="1" title="Qty" class="qty"
+                                                                size="4">
+                                                         
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-2 col-sm-2 col-md-2 text-right">
+                                                     <button type="button" class="btn btn-outline-danger btn-xs">
+                                                         <i class="fa fa-trash" aria-hidden="true"></i>
+                                                     </button>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <hr>
+                                         <!-- END PRODUCT -->
+                                         <!-- PRODUCT -->
+                                         <div class="row">
+                                             <div class="col-12 col-sm-12 col-md-2 text-center">
+                                                     <img class="img-responsive" src="./chuwy2.jpg" alt="prewiew" width="120" height="80">
+                                             </div>
+                                             <div class="col-12 text-sm-center col-sm-12 text-md-left col-md-6">
+                                                 <h4 class="product-name"><strong>White Top</strong></h4>
+                                                 <h4>
+                                                     <small>Ladies White Top</small>
+                                                 </h4>
+                                             </div>
+                                             <div class="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row">
+                                                 <div class="col-3 col-sm-3 col-md-6 text-md-right" style="padding-top: 5px">
+                                                     <h6><strong>25.00 <span class="text-muted">x</span></strong></h6>
+                                                 </div>
+                                                 <div class="col-4 col-sm-4 col-md-4">
+                                                     <div class="quantity">
+                                                         
+                                                         <input type="number" step="1" max="99" min="1" value="1" title="Qty" class="qty"
+                                                                size="4">
+                                                         
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-2 col-sm-2 col-md-2 text-right">
+                                                     <button type="button" class="btn btn-outline-danger btn-xs">
+                                                         <i class="fa fa-trash" aria-hidden="true"></i>
+                                                     </button>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <hr>
+                                         <!-- END PRODUCT -->
+                                         <div class="row">
+                                             <div class="col-9"></div>
+                                     <div class="pull-right col-2">
+                                         <a href="#" class="btn btn-outline-secondary pull-right">
+                                             Update shopping cart
+                                         </a>
+                                     </div>
+                                    </div>
+                                 </div>
+                                 <div class="card-footer">
+                                     <div class="row">
+                                         <div class="col-8"></div>
+                                     <div class="coupon col-md-5 col-sm-5 no-padding-left pull-left">
+                                         <div class="row">
+                                             <div class="col-5">
+                                                 <input type="text" class="form-control" placeholder="Coupon code">
+                                             </div>
+                                             <div class="col-4">
+                                                 <input type="submit" class="btn btn-success" value="Use Coupon">
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="col-5"></div>
+                                     <div class="pull-right">
+                                         <a href="#" class="btn btn-success pull-right">Checkout</a>
+                                         <div class="pull-right" style="margin: 5px">
+                                             Total price: <b>50.00$</b>
+                                         </div>
+                                     </div>
+                                    </div>
+                                 </div>
+                             </div>
+                     </div>
+                     <br>
+                <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark" style="background-color: #353a40;">
+
+        <div style="background-color: #3a3f45; color: white;">
+          <div class="container">
+      
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+      
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                <h6 class="mb-0">Get connected with us on social networks!</h6>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-7 text-center text-md-right">
+      
+                <!-- Facebook -->
+                <a class="fb-ic">
+                  <i class="fab fa-facebook-f white-text mr-4"> </i>
+                </a>
+                <!-- Twitter -->
+                <a class="tw-ic">
+                  <i class="fab fa-twitter white-text mr-4"> </i>
+                </a>
+                <!-- Google +-->
+                <a class="gplus-ic">
+                  <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                </a>
+                <!--Linkedin -->
+                <a class="li-ic">
+                  <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                </a>
+                <!--Instagram-->
+                <a class="ins-ic">
+                  <i class="fab fa-instagram white-text"> </i>
+                </a>
+      
+              </div>
+              <!-- Grid column -->
+      
+            </div>
+            <!-- Grid row-->
+      
+          </div>
+        </div>
+      
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5 footer1" style="background-color: #353a40;">
+      
+          <!-- Grid row -->
+          <div class="row mt-3">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+      
+              <!-- Content -->
+              <h6 class="text-uppercase font-weight-bold">Company name</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>Shilta , made with love with Bootstrap 4.</p>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+      
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold">Products</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <div class="Link1">
+              <p>
+                <a href="#!">Ladies Top</a>
+              </p>
+              <p>
+                <a href="#!">Ladies Top</a>
+              </p>
+              <p>
+                <a href="#!">BrandFlow</a>
+              </p>
+              <p>
+                <a href="#!">FlowBrand</a>
+              </p>
+            </div>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+      
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <div class="Link2">
+              <p>
+                <a href="#!">Your Account</a>
+              </p>
+              <p>
+                <a href="#!">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!">Help</a>
+              </p>
+            </div>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold">Contact</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <i class="fas fa-home mr-3"></i> Kepri , Batam</p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> shilta@business.com</p>
+              <p>
+                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p>
+                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+      
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" style="color: white;">© 2019 Copyright:
+          <a href="#" style=" color: white;"> Shilta</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+</body>
+</html>

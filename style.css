@@ -1,0 +1,389 @@
+
+body{
+background-color: whitesmoke;
+
+}
+.navbar{
+color: white;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.collapse .navbar{
+    justify-content: space-around;
+}
+.btnSear .btn{
+    border-color: whitesmoke;
+    background-color: transparent;
+    color: whitesmoke;
+}
+.btnSear .btn:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+.m-right{
+    background: #476b6b;
+    border: 2px solid #476b6b; 
+    border-right: 2px solid white;
+    color: white;
+}
+.bg-orange{
+    background-color:#476b6b; 
+    color: aliceblue; 
+    font-weight: 600; 
+    text-align: center;
+}
+.carousel-item .btn-light{
+    background-color: transparent;
+    color: black;
+    border-color: black;
+}
+.carousel-item .btn-light:hover{
+    background-color:black;
+    color: white;
+    border-color: black;
+}
+.aboutSadnile{
+    width:15rem;
+    height: 10rem;
+}
+.bg-light-gray{
+    background-color: whitesmoke;
+}
+.underline{
+    width: 100px; 
+    height:2px; 
+    background-color: #476b6b;
+}
+.underlineBaras{
+    width: 1250px;
+    height: 2px;
+    background-color: black;
+}
+.aboutSadnile{
+    width: 20rem;
+    height: 10rem;
+    /* border-color: ; */
+}
+.padtop50{
+    padding-top: 55px;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+}
+.batas{
+    border: whitesmoke;
+    height: 50px;
+}
+.padtop50 h3{
+    font-size: 25px;
+}
+.padtop50 p {
+    font-size: 16px;
+}
+.padtop50 li{
+    font-size: 16px;
+}
+.centered h1{
+    text-align: center;
+    
+}
+.centered p{
+    text-align: center;
+}
+.action{
+    padding-top: 5px;
+    text-align: center;
+    background-color: transparent;
+}
+.action button{
+    background-color: black;
+    color: whitesmoke;
+    border-color: black;
+}
+.action button:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.imgBanner{
+    padding-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.centered{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.padtop50{
+    text-decoration: none;
+}
+.list li{
+    list-style-type:none;
+}
+.col-item
+{
+    border: 2px solid #2323A1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+.col-item:hover .info {
+    background-color: rgba(215, 215, 244, 0.5); 
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #00990E;
+}
+
+.col-item .info .rating
+{
+    color: #003399;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #FFCCCC;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #CC9999;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+.Link
+{
+    list-style: none;
+}
+.Link li a{
+    color:gray;
+    display: inline-block;
+    text-decoration: none;
+}
+.Link li a:hover{
+    color: whitesmoke;
+}
+.trends{
+    text-align: center;
+    margin-right: -130px;
+    justify-content: center;
+}
+.underline2{
+    width: 100px; 
+    height:2px; 
+    background-color: #476b6b;
+    position: relative;
+    margin-right: 50px;
+}
+.batas2{
+    border: whitesmoke;
+    height: 55px;
+}
+.home-newsletter {
+    padding: 80px 0;
+    background: #476b6b;
+    }
+    
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+
+.home-newsletter .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 20px 0 0 20px; }
+
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f; }
+
+.home-newsletter .single .btn {
+    min-height: 50px; 
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff;
+    }
+.bg-dark-bg{
+    color: whitesmoke;
+    background-color: #353a40;
+}
+.link1 ul li a{
+    text-decoration: none;
+}
+.footer1{
+    color: whitesmoke;
+}
+.Link1 p a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.Link2 p a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.quantity {
+    float: left;
+    margin-right: 15px;
+    background-color: #eee;
+    position: relative;
+    width: 80px;
+    overflow: hidden
+}
+
+.quantity input {
+    margin: 0;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    float: right;
+    color: #000;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background-color: #F6F6F6
+}
+
+.quantity input.qty {
+    position: relative;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px 25px 10px 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 0;
+    background-clip: padding-box
+}
+
+.quantity .minus, .quantity .plus {
+    line-height: 0;
+    background-clip: padding-box;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    
+    color: #bbb;
+    font-size: 20px;
+    position: absolute;
+    height: 50%;
+    border: 0;
+    right: 0;
+    padding: 0;
+    width: 25px;
+    z-index: 3
+}
+
+.quantity .minus:hover, .quantity .plus:hover {
+    background-color: #dad8da
+}
+
+.quantity .minus {
+    bottom: 0
+}
+.shopping-cart {
+    margin-top: 20px;
+}
+.headNav ul li a{
+    display:inline;
+}
+.anim-right button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
