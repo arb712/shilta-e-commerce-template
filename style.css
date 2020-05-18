@@ -1,7 +1,7 @@
 
 body{
 background-color: whitesmoke;
-
+overflow-x: hidden;
 }
 .navbar{
 color: white;
